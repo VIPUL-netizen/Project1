@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+.blue-title-bar{
+    background-color: rgb(17, 238, 238); /* Blue color */
+    background-image: url('hospital_Bk.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+   background-size: cover; /* Scales the image as large as possible to cover the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating *
+    color: white;      /* White text color */
+    padding: 10px 0; /* Padding around the title */
+    text-align: center; /* Center the title */
+}
+
+.h1{
+    margin:0;
+    font-size: 24px;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    display: inline;
+}
+
+/* Adjustments here */
+.input-row,.input-row_1,.input-row_3,.input-row_4 {
+    font-family: Arial, sans-serif;
+            display:inline;
+            justify-content: left;
+            align-items: center;
+            height: 20px;
+            background-color: #f0f0f0;
+}
+
+.required-field {
+    margin-right: 10px; /* Adds some space to the right of the labels */
+}
+
+
+.label {
+            margin-bottom: 5px;
+        }
+
+.input-row_2{
+	font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: left;
+            align-items: flex;
+            height: 5vh;
+            background-color: #f0f0f0;
+	
+	
+}
+
+.input[type="date"], .input[type="time"] {
+            margin-top: 30px;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        
+  /* style.css */
+.centered-button {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+    height: 10vh; /* Takes up the full viewport height */
+    /*width: 300px; /* Adjust the width as needed */
+    /*height: 40px; /* Adjust the height as needed */
+
+}
+
+input[type="submit"] {
+    padding: 20px 30px; /* Adjusts the size of the button */
+    font-size: 20px; /* Sets the text size */
+}
+
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+.bubble {
+    max-width: 200px;
+    min-height: 40px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+}
+
+#userInput {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+    .body {
+    background-image: url('Hospital_3.jpg'); /* Ensure this path is correct */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Include other properties you had for.body, if any */
+}
